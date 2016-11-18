@@ -6,6 +6,7 @@ public  class PdfExampleController {
     //3
     //4
     //5
+    //6
         accList = new List<Account>();
         accList = [select id,name,type,accountnumber,annualrevenue,Rating from account limit 10];
     
