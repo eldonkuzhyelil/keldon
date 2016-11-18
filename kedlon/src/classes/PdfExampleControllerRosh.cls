@@ -1,6 +1,6 @@
 public  class PdfExampleControllerRosh{
     public List<Account> accList{get;set;}
-    public PdfExampleController (){
+    public PdfExampleControllerRosh (){
     //first
     //second
     //3
@@ -14,6 +14,7 @@ public  class PdfExampleControllerRosh{
 //11
 //12
 //13
+//14
         accList = new List<Account>();
         accList = [select id,name,type,accountnumber,annualrevenue,Rating from account limit 10];
     
