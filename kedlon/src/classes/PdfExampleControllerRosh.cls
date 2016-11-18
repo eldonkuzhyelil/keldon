@@ -1,4 +1,4 @@
-public  class PdfExampleController {
+public  class PdfExampleControllerRosh{
     public List<Account> accList{get;set;}
     public PdfExampleController (){
     //first
